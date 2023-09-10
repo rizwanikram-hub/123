@@ -4,7 +4,7 @@
     "description": "Integrates Bootstrap 5 into WonderCMS, making it available for all themes.",
     "version": "1.0.0",
     "author": "Rizwan Ikram",
-    "url": "https://github.com/rizwanikram-hub/123/blob/master/wcms-modules.json",
+    "url": "https://raw.githubusercontent.com/rizwanikram-hub/123/master/wcms-modules.json",
     "license": "GPL",
     "requires": {
         "wondercms": ">=3.0.0"
