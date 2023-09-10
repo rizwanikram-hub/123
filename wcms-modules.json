@@ -1,0 +1,26 @@
+{
+    "name": "Bootstrap 5 Plugin",
+    "type": "plugin",
+    "description": "Integrates Bootstrap 5 into WonderCMS, making it available for all themes.",
+    "version": "1.0.0",
+    "author": "Rizwan Ikram",
+    "url": "https://cspro.biz/WonderCMS-Plugins",
+    "license": "GPL",
+    "requires": {
+        "wondercms": ">=3.0.0"
+    },
+    "order": 100,
+    "hooks": [
+        "css"
+    ],
+    "files": {
+        "Bootstrap5.php": "main"
+    },
+    "settings": {
+        "enabled": {
+            "label": "Enable Bootstrap 5",
+            "type": "checkbox",
+            "default": true
+        }
+    }
+}
